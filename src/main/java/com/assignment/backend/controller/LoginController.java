@@ -13,7 +13,7 @@ import com.assignment.backend.models.User;
 import com.assignment.backend.services.UserService;
 
 @RestController
-@RequestMapping("/login")
+@RequestMapping("/v1/login")
 public class LoginController {
 
 	@Autowired

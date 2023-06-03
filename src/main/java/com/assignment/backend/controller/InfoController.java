@@ -13,7 +13,7 @@ import com.assignment.backend.services.InfoService;
 import com.assignment.backend.models.Info;
 
 @RestController
-@RequestMapping("/info")
+@RequestMapping("/v1/info")
 public class InfoController {
 
 	@Autowired
